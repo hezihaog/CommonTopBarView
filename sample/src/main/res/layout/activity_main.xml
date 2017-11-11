@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hzh.common.view.sample.MainActivity">
+
+    <com.hzh.common.view.TopBarView
+        android:id="@+id/topBarView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_top_bar_view" />
+</FrameLayout>
